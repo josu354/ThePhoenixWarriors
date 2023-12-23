@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #26020f;
+  padding: 1rem;
+}
+
+nav h1 {
+  color: white;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  background-color: #a60a17;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+nav img {
+  height: 100px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 16px;
+  background: #ffe259; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffa751,
+    #ffe259
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffa751,
+    #ffe259
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.logo {
+  max-width: 400px;
+}
+
+.cta-buttons {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #c21500;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #ffc500;
+}
+
+.btn-learn-more {
+  background-color: transparent;
+  border: 2px solid #c21500;
+}
+
+.btn-learn-more:hover {
+  background-color: #c21500;
+  color: #fff;
+}
+
+.hero h2,
+.hero p {
+  padding: 1rem;
+}
+
+.about {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1c1c1c;
+}
+
+.about-content {
+  color: white;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  margin-bottom: 20px;
+}
+
+.info-section {
+  background: #ffe259; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffa751,
+    #ffe259
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffa751,
+    #ffe259
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 16px;
+}
+
+.info-card {
+  background-color: #26020f;
+  color: #ffa751;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  flex: 1 1 0;
+  justify-content: center;
+}
+
+.info-card img {
+  width: 50px;
+}
+
+.info-cards-container {
+  display: flex;
+  gap: 15px;
+  max-width: 1000px;
+  justify-content: space-between;
+}
+
+.info-card p {
+  text-align: center;
+  color: #ffc500;
+}
+
+.info-card h3 {
+  text-align: center;
+}
+
+.info-section i {
+  font-size: 50px;
+  color: white;
+}
+
+.info-joinus {
+  display: flex;
+  gap: 15px;
+  max-width: 1000px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.headquarters {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  flex: 1 1 0;
+  justify-content: center;
+}
+
+.headquarters ul {
+  list-style: none;
+}
+
+.office {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  flex: 1 1 0;
+  justify-content: center;
+}
+
+.office ul {
+  list-style: none;
+}
+
+.contacts-container {
+  display: flex;
+  gap: 15px;
+  max-width: 1000px;
+  justify-content: space-between;
+}
+
+.contact-section {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.contact-info h3 {
+  padding-left: 16px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+footer b {
+  font-weight: bold;
+}
